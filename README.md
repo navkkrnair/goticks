@@ -1,5 +1,5 @@
 # goticks
-A simple experiment using Akka. Uses Akka http and some Actors. It can create Events and tickets.
+A simple experiment using Akka (from the book Akka in Action). Uses Akka http and some Actors. It can create Events and tickets.
 1. POST to http://localhost:8080/events with a payload
 {
   "name":"Deepavali",
