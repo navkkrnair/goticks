@@ -26,3 +26,6 @@ dependencies {
     testCompile group: 'com.typesafe.akka', name: "akka-actor-testkit-typed_${ScalaBinary}", version: AkkaVersion
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
+
+task stage(dependsOn: ['build', 'clean'])
+build.mustRunAfter clean
